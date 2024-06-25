@@ -156,6 +156,7 @@ class DS2AboutMe extends StatelessWidget {
           children: [
             const FrameTitle(
                 title: DataValues.aboutMeTitle,
+                animation: "about",
                 description: DataValues.aboutMeDescription),
             const SizedBox(height: 40.0),
             bio(context),

@@ -22,6 +22,7 @@ class DS5Volunteering extends StatelessWidget {
           children: [
             const FrameTitle(
                 title: DataValues.volunteeringTitle,
+                animation: "vol",
                 description: DataValues.volunteeringDescription),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 import '../statics/data_values.dart';
 import '../theme/app_theme.dart';
@@ -10,7 +11,10 @@ class DS1Header extends StatelessWidget {
 
   List<Widget> headerData() {
     return [
-      Image.asset('assets/images/logo.png', height: 250.0, width: 250.0),
+      Image.asset('assets/images/logo.png',
+          height: 250.0,
+          width:
+              250.0), //  Lott.asset('assets/images/logo.png', height: 250.0, width: 250.0),
       const SizedBox(width: 60.0),
       Column(
         children: [
@@ -30,6 +34,7 @@ class DS1Header extends StatelessWidget {
           const SocialProfiles(),
         ],
       ),
+      Lottie.asset('assets/icons/coding.json', height: 250.0, width: 250.0),
     ];
   }
 

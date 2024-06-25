@@ -22,6 +22,7 @@ class DS6Portfolio extends StatelessWidget {
           children: [
             const FrameTitle(
                 title: DataValues.portfolioTitle,
+                animation: "portfolio",
                 description: DataValues.portfolioDescription),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

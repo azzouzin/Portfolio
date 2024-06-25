@@ -23,6 +23,7 @@ class DS7Contact extends StatelessWidget {
           children: [
             const FrameTitle(
                 title: DataValues.contactTitle,
+                animation: "call",
                 description: DataValues.contactDescription),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,

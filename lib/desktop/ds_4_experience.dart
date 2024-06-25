@@ -21,8 +21,10 @@ class DS4Experience extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const FrameTitle(
-                title: DataValues.experienceTitle,
-                description: DataValues.experienceDescription),
+              title: DataValues.experienceTitle,
+              animation: "exp",
+              description: DataValues.experienceDescription,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,

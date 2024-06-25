@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 import '../statics/data_values.dart';
 import '../theme/app_theme.dart';
@@ -30,6 +31,7 @@ class MS1Header extends StatelessWidget {
           const SocialProfiles(),
         ],
       ),
+      Lottie.asset('assets/icons/coding.json', height: 250.0, width: 250.0),
     ];
   }
 
