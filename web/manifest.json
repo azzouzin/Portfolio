@@ -1,11 +1,11 @@
 {
-    "name": "Dileepa Bandara",
-    "short_name": "Dileepa Bandara",
+    "name": "Merouani Azzouz",
+    "short_name": "Merouani Azzouz",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#121212",
     "theme_color": "#019FAB",
-    "description": "Hello there, I'm Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.",
+    "description": "Hello there, I'm Merouani Azzouz. This is my personal website, which contains public information that anyone can find on the internet.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
