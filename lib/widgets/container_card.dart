@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:developer';
 
@@ -171,7 +172,12 @@ class ContainerCard {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Image.asset('assets/images/$image.png', height: 70.0),
+                Image.asset(
+                  'assets/images/$image.png',
+                  height: 70.0,
+                  scale: 2,
+                  //   width: 100.0,
+                ),
                 const SizedBox(height: 20.0),
                 SelectableText(title,
                     style: TextStyle(
@@ -242,6 +248,90 @@ class ContainerCard {
           ),
         ),
       ],
+    );
+  }
+
+  Widget type5({
+    required String image,
+    required String title,
+    required String description,
+    required String link,
+  }) {
+    return InkWell(
+      onTap: () async {
+        final url = Uri.parse(link);
+        if (!await launchUrl(url)) {
+          throw 'Could not launch $url';
+        }
+        log("Direct to: $url");
+      },
+      onHover: (isHover) {
+        print(isHover);
+      },
+      child: Container(
+        decoration: BoxDecoration(
+          color: AppThemeData.cardGrey,
+          borderRadius: BorderRadius.circular(10.0),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.2),
+              spreadRadius: 2,
+              blurRadius: 5,
+              offset: const Offset(0, 3), // changes position of shadow
+            ),
+          ],
+        ),
+        child: Stack(
+          children: [
+            ClipRRect(
+              borderRadius: BorderRadius.circular(10.0),
+              child: Image.asset(
+                "assets/images/$image.png",
+                fit: BoxFit.cover,
+                height: 500,
+              ),
+            ),
+            SizedBox(
+              height: 500,
+              child: Column(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(child: Container()),
+                    Container(
+                      width: double.maxFinite,
+                      height: 150,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                            bottomLeft: Radius.circular(10),
+                            bottomRight: Radius.circular(10)),
+                        color: Colors.black.withOpacity(0.5),
+                      ),
+                      child: Container(
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                title,
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              SizedBox(height: 10),
+                              Text(
+                                description,
+                                style: TextStyle(fontWeight: FontWeight.w100),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ]),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

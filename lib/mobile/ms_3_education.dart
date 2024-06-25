@@ -40,7 +40,7 @@ class MS3Education extends StatelessWidget {
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,
             ),
-            const SizedBox(height: 20.0),
+            /*  const SizedBox(height: 20.0),
             ContainerCard().type2(
               image: 'nibm',
               title: DataValues.educationOrg2Title,
@@ -58,6 +58,7 @@ class MS3Education extends StatelessWidget {
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,
             ),
+         */
           ],
         ),
       ),

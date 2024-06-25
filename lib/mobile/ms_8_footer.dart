@@ -39,13 +39,13 @@ class MS8Footer extends StatelessWidget {
           const SizedBox(
             height: 40,
           ),
-          SelectableText(
+          /*  SelectableText(
             '${DataValues.appName} (v${DataValues.appVersion})',
             style: Theme.of(context).textTheme.bodyMedium,
-          ),
-          const SizedBox(
+          ),*/
+          /* const SizedBox(
             height: 10,
-          ),
+          ),*/
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -57,7 +57,7 @@ class MS8Footer extends StatelessWidget {
               const SizedBox(
                 width: 5,
               ),
-              getSourceCode(context),
+              //   getSourceCode(context),
             ],
           ),
           const SizedBox(

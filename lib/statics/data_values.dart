@@ -1,9 +1,9 @@
 class DataValues {
   // About App
-  static const String appName = 'Dileepa Bandara';
+  static const String appName = 'Merouani Azzouz';
   static const String appNameLong = 'dileepabandara.dev';
   static const String appDescription =
-      'Hello there, I\'m Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.';
+      'Hello there, I\'m Merouani Azzouz. This is my personal website, which contains public information that anyone can find on the internet.';
   static const String appDeveloper = 'Dileepa Bandara';
   static const String appPackage = 'dev.dileepabandara.dileepabandara_dev';
   static const String appVersion = '1.1.2';
@@ -12,13 +12,15 @@ class DataValues {
   // External links
   static Uri devURL = Uri.parse('https://dileepabandara.dev');
   static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepabandara');
-  static Uri githubURL = Uri.parse('https://github.com/dileepabandara');
-  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepabandara');
+  static Uri githubURL = Uri.parse('https://github.com/azzouzin');
+  static Uri linkedinURL =
+      Uri.parse('https://www.linkedin.com/in/merouani-azzouz-b696032b2/');
   static Uri twitterURL = Uri.parse('https://twitter.com/_dileepabandara');
   static Uri youtubeURL = Uri.parse('https://youtube.com/@flutterscope');
-  static Uri telegramURL = Uri.parse('https://t.me/dileepabandara');
-  static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
-  static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
+  static Uri telegramURL = Uri.parse('https://t.me/Azzouzmerouani');
+  static Uri facebookURL =
+      Uri.parse('https://www.facebook.com/profile.php?id=100090237280455');
+  static Uri instagramURL = Uri.parse('https://www.instagram.com/azzouzmr/');
   static Uri repoURL =
       Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
   static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev');
@@ -31,8 +33,8 @@ class DataValues {
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
-  static const String headerName = 'Dileepa Bandara';
-  static const String headerTitle = 'Student | Developer | Volunteer';
+  static const String headerName = 'Merouani Azzouz';
+  static const String headerTitle = 'Algerian | Developer | IT engineer';
 
   // Navigation Bar
   static const String navBarAboutMe = 'About Me';
@@ -53,30 +55,26 @@ class DataValues {
       'Technology is always igniting my passion for the positive impact it can have, and I\'m excited to continue growing my skills and knowledge, so I started my career as a techie. '
       'In addition to my studies, I\'m also passionate about giving back to various communities and helping others, which is why I volunteer my time to help out whenever I can, and I believe that this work is vital in helping to create a better future for everyone.';
   static const String aboutMeFullNameTitle = 'Full Name';
-  static const String aboutMeFullNameDescription =
-      'Jayasundara Mudiyanselage Dileepa Lakmal Bandara';
-  static const String aboutMeNwITitle = 'Name with Initials';
-  static const String aboutMeNwIDescription = 'J.M. Dileepa Lakmal Bandara';
+  static const String aboutMeFullNameDescription = 'Azzouz Merouani';
   static const String aboutMeFnLTitle = 'First and Last Name';
-  static const String aboutMeFnLDescription = 'Dileepa Bandara';
+  static const String aboutMeFnLDescription = 'Merouani Azzouz';
   static const String aboutMeDobTitle = 'Birthday';
-  static const String aboutMeDobDescription = 'July 24, 1997';
+  static const String aboutMeDobDescription = 'August 01, 2000';
   static const String aboutMeLanguageTitle = 'Languages';
-  static const String aboutMeLanguageDescription = 'Sinhala (Native)\n'
+  static const String aboutMeLanguageDescription = 'Arabic (Native)\n'
       'English (Professional)';
   static const String aboutMeNationalityTitle = 'Nationality';
-  static const String aboutMeNationalityDescription = 'Sri Lankan';
+  static const String aboutMeNationalityDescription = 'Algerian';
   static const String aboutMeGenderTitle = 'Gender';
   static const String aboutMeGenderDescription = 'Male (He/Him/His)';
   static const String aboutMeLocationTitle = 'Current Locations';
-  static const String aboutMeLocationDescription =
-      'Kurunegala, Sri Lanka\nColombo, Sri Lanka';
-  static const String aboutMeWorkDomainTitle = 'Working Domain';
+  static const String aboutMeLocationDescription = 'Ain Arnet, Setif\nAlgeria';
+  /*static const String aboutMeWorkDomainTitle = 'Working Domain';
   static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
-      '08:00 - 18:00 (GMT+5:30)';
-  static const String aboutMeStudentTitle = 'Computing Student';
+      '08:00 - 18:00 (GMT+5:30)';*/
+  static const String aboutMeStudentTitle = 'IT Engineer';
   static const String aboutMeStudentDescription =
-      'I study computing technologies as a student by focusing on learning how computer systems work, from the physical (hardware) to the apps and programs (software) that users interact with, and I learn all about critical thinking, problem-solving, and analytical research, regardless of whether I apply all the computing principles to solve problems in scenarios.';
+      'I studied computing technologies as a student by focusing on learning how computer systems work, from the physical (hardware) to the apps and programs (software) that users interact with, and I learn all about critical thinking, problem-solving, and analytical research, regardless of whether I apply all the computing principles to solve problems in scenarios.';
   static const String aboutMeDeveloperTitle = 'Solution Developer';
   static const String aboutMeDeveloperDescription =
       'I use various tools for creating and implementing innovative solutions to problems in order to accomplish particular goals. I employ a variety of techniques, including software development alongside app development, as well as design and develop structures such as UI/UX, graphics, data management, and other analytical methods with a focus on business points.';
@@ -86,8 +84,8 @@ class DataValues {
   static const String aboutMeHobbiesTitle = 'Hobbies';
   static const String aboutMeHobbiesDescription = 'Learning New Things\n'
       'Watching Movies & TV Shows\n'
-      'Listening to Music & Dancing\n'
-      'Content Creation';
+      'Listening to Music & Reading\n'
+      'Football swimming';
   static const String aboutMeGoalTitle = 'Goal';
   static const String aboutMeGoalDescription =
       'To grow personally and professionally, while making a positive impact on the community.';
@@ -99,19 +97,18 @@ class DataValues {
   // Education
   static const String educationTitle = 'Education';
   static const String educationDescription =
-      'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from 2003 to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
+      'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from 2018 to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
   static const String educationOrg1Title =
-      'Maliyadeva Adarsha M.V. - Sri Lanka';
-  static const String educationOrg1Course1Name = 'GCE Advanced Level';
-  static const String educationOrg1Course1Grade =
-      'Combined Maths, Physics, and Chemistry';
-  static const String educationOrg1Course1Year = 'Attempted: 2016 & 2017';
-  static const String educationOrg1Course2Name = 'GCE Ordinary Level ';
-  static const String educationOrg1Course2Grade = 'Passed with 6A, 3B';
-  static const String educationOrg1Course2Year = '2013';
+      'Ferhat Abbas University Setif 1 - Algeria';
+  static const String educationOrg1Course1Name = 'bachelor degree(Licence )';
+  static const String educationOrg1Course1Grade = 'Computer Scince';
+  static const String educationOrg1Course1Year = 'Passed with a grade of 12.5';
+  static const String educationOrg1Course2Name = 'Master Degree ';
+  static const String educationOrg1Course2Grade = 'Passed with a grade of 15';
+  static const String educationOrg1Course2Year = 'Period : 2021-2023';
   static const String educationOrg1Course3Name = 'Education Period';
-  static const String educationOrg1Course3Year = 'Secondary: 2008 - 2016';
-  static const String educationOrg1Course3Year2 = 'Primary: 2003 - 2007';
+  static const String educationOrg1Course3Year = 'Bachlor: 2018 - 2021';
+  static const String educationOrg1Course3Year2 = 'Master: 2021 - 2023';
 
   static const String educationOrg2Title = 'NIBM - Sri Lanka';
   static const String educationOrg2Course1Name = 'BSc (Hons) Computing';
@@ -133,35 +130,69 @@ class DataValues {
   static const String educationBannerWeb =
       'Click here to find out more about my online learning platforms.';
 
+  // Portfolio
+  static const String portfolioTitle = 'Portfolio';
+  static const String portfolioDescription =
+      "In my 3 years of experience in Flutter, I created various applications, some for my freelancing clients and some for the companies I worked for in the past. Now, here is a brief overview of some of the best apps I created or edited."; // Experience
+  // Projects
+  static const String project1Title = 'Animo360';
+  static const String project1Descreption = "Flutter,Dart,NodeJS,FCM";
+
+  static const String project2Title = 'ADH';
+  static const String project2Descreption = "Flutter,Dart,Laravel,Php,FCM";
+  static const String project3Title = 'DrAdd';
+  static const String project3Descreption = "Flutter,Dart,Fast Api,python";
+  static const String project4Title = 'IamPack';
+  static const String project4Descreption =
+      "Flutter,Dart,Firestore,FireBaseAuth,UI/UX,Geolocation";
+  static const String project4Link =
+      "https://mega.nz/file/DLxXSY4T#o8Wq2n5ZVaRK2u8f135w1iorNgdBQMsX6pyr15SZXLI";
+
+  // Experience
+
   // Experience
   static const String experienceTitle = 'Experience';
   static const String experienceDescription =
-      'Since I started my diploma in 2019, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance solution developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
-  static const String experienceOrg1Title = 'Dileepa Bandara';
-  static const String experienceOrg1Role = 'Solution Developer';
-  static const String experienceOrg1Years = 'June 2019 - June 2022';
+      'Since I started my master diploma in 2021, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance software developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
+  static const String experienceOrg1Title = 'Merouani Azzouz';
+  static const String experienceOrg1Role = 'Freelancer';
+  static const String experienceOrg1Years = 'January 2021 - Aug 2023';
   static const String experienceOrg1Vales =
-      'Mobile, Desktop, Web development, UI UX, Tech Support Assistant & Data Analysis.';
-  static const String experienceOrg2Title = 'DDS Techvira';
+      'Mobile, Desktop, Web development, UI UX & Tech Support';
+
+  static const String experienceOrg2Title = 'ADH Protacleans';
   static const String experienceOrg2Role =
-      'Trainee Software Developer (Flutter)';
-  static const String experienceOrg2Years = 'May 2021 - November 2021';
+      'IT engineer & Software Developer (Flutter)';
+  static const String experienceOrg2Years = 'Aug 2023 - Now';
   static const String experienceOrg2Vales =
+      'Android, Flutter, Dart, Firebase, Git, REST API,Web, JSON Parsing & UI UX Designing.';
+
+  static const String experienceOrg3Title = 'Khotwa Tech';
+  static const String experienceOrg3Role = 'Software Developer (Flutter)';
+  static const String experienceOrg3Years = 'July 2023 - Aug 2023';
+  static const String experienceOrg3Vales =
       'Android, Flutter, Dart, Firebase, Git, REST API, JSON Parsing & UI UX Designing.';
+
+  static const String experienceOrg4Title = 'Futuriva';
+  static const String experienceOrg4Role = 'Software Developer (Flutter)';
+  static const String experienceOrg4Years = 'Mar 2024 - Now';
+  static const String experienceOrg4Vales =
+      'Android, IOS, Flutter, Dart, Github, REST API, JSON Parsing & UI UX Designing.';
+
   static const String experienceBanner = 'Find my working';
   static const String experienceBannerTitle = 'toolkit';
   static const String experienceBannerWeb =
-      'Visit toolkit.dileepabandara.dev for more details >>';
+      'Visit https://github.com/azzouzin for more details >>';
 
   // Volunteering
   static const String volunteeringTitle = 'Volunteering';
   static const String volunteeringDescription =
       'Volunteering is an amazing way for me to give back to communities and make a difference. It\'s also a terrific opportunity to meet new people, learn new skills, and gain valuable experience. I do volunteer work for many different social and technical organizations. These are more focused organizations where I am presently volunteering.';
-  static const String volunteeringOrg1Title = 'FlutterScope';
-  static const String volunteeringOrg1Role = 'Content Creator';
-  static const String volunteeringOrg1Years = 'January 2022 - Present';
+  static const String volunteeringOrg1Title = 'SCA Club';
+  static const String volunteeringOrg1Role = 'Software Devolper';
+  static const String volunteeringOrg1Years = 'January 2020 - May 2023';
   static const String volunteeringOrg1Vales =
-      'FlutterScope was founded to disseminate knowledge about Flutter and related technologies. This community is an educational group that is not affiliated with or otherwise sponsored by Google LLC.';
+      'Ertiqaa Club is a scientific club affiliated with the Faculty of Science, Setif University. It was established in 2018 and is concerned with practical research and development in technical fields.';
   static const String volunteeringOrg2Title = 'Microsoft';
   static const String volunteeringOrg2Role =
       'Microsoft Learn Student Ambassador';
@@ -194,11 +225,11 @@ class DataValues {
   static const String contactDescription =
       'Hey! I appreciate you looking at my public profile. Please feel free to ask me anything or to discuss anything with me. I\'m happy to chat with and meet new people. Regardless of the fact that I don\'t use social media much, you can find me there. So find me and get in touch with me. Send me an email if you need to discuss anything serious with me. I\'ll get back to you in 12 to 24 hours.';
   static const String contactBanner = 'Send me an email at';
-  static const String contactEmail = 'contact@dileepabandara.dev';
+  static const String contactEmail = 'azzouzmerw@gmail.com';
 
   // Footer
   static const String copyright =
-      "Copyright ©2023 Dileepa Bandara. All Rights Reserved.";
+      "Thanks to Dileepa Bandara. Really Appreciate it.";
 
-  static const String builtWith = "Built with Flutter and GitHub Pages.";
+  static const String builtWith = "Built with Flutter,GitHub Pages and Love.";
 }

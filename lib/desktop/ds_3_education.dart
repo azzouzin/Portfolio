@@ -46,7 +46,7 @@ class DS3Education extends StatelessWidget {
                   ),
                 ),
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-                Expanded(
+                /*    Expanded(
                   child: ContainerCard().type2(
                     image: 'nibm',
                     title: DataValues.educationOrg2Title,
@@ -65,6 +65,7 @@ class DS3Education extends StatelessWidget {
                     url: DataValues.linkedinURL,
                   ),
                 ),
+            */
               ],
             ),
           ],

@@ -34,7 +34,7 @@ class MS5Volunteering extends StatelessWidget {
               url: DataValues.linkedinURL,
               isButtonEnabled: true,
             ),
-            const SizedBox(height: 20.0),
+            /*   const SizedBox(height: 20.0),
             ContainerCard().type3(
               image: 'mlsa',
               title: DataValues.volunteeringOrg2Title,
@@ -57,6 +57,7 @@ class MS5Volunteering extends StatelessWidget {
                 url: DataValues.volunteeringURL,
               ),
             ),
+        */
           ],
         ),
       ),

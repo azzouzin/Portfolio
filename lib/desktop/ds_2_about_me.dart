@@ -27,11 +27,11 @@ class DS2AboutMe extends StatelessWidget {
                   description: DataValues.aboutMeBiographyDescription,
                 ),
                 const SizedBox(height: 40.0),
-                ButtonTextSmall(
+                /* ButtonTextSmall(
                   text: 'View Full Biography >>',
                   message: DataValues.biographyURL.toString(),
                   url: DataValues.biographyURL,
-                ),
+                ),*/
               ],
             ),
           ),
@@ -43,11 +43,6 @@ class DS2AboutMe extends StatelessWidget {
                 TextPairs().type1(
                   title: DataValues.aboutMeFullNameTitle,
                   description: DataValues.aboutMeFullNameDescription,
-                ),
-                const SizedBox(height: 30.0),
-                TextPairs().type1(
-                  title: DataValues.aboutMeNwITitle,
-                  description: DataValues.aboutMeNwIDescription,
                 ),
                 const SizedBox(height: 30.0),
                 TextPairs().type1(
@@ -87,10 +82,10 @@ class DS2AboutMe extends StatelessWidget {
                   description: DataValues.aboutMeLocationDescription,
                 ),
                 const SizedBox(height: 30.0),
-                TextPairs().type1(
+                /*   TextPairs().type1(
                   title: DataValues.aboutMeWorkDomainTitle,
                   description: DataValues.aboutMeWorkDomainDescription,
-                ),
+                ),*/
                 const SizedBox(height: 30.0),
                 TextPairs().type1(
                   title: DataValues.aboutMeHobbiesTitle,
@@ -166,7 +161,7 @@ class DS2AboutMe extends StatelessWidget {
             bio(context),
             const SizedBox(height: 40.0),
             titles(context),
-            const SizedBox(height: 80.0),
+            /*  const SizedBox(height: 80.0),
             Center(
               child: ContainerBanner().type1(
                   isDesktop: true,
@@ -176,7 +171,7 @@ class DS2AboutMe extends StatelessWidget {
                   image: 'logo',
                   message: 'View Profiles',
                   url: DataValues.profilesURL),
-            ),
+            ),*/
           ],
         ),
       ),

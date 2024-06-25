@@ -1,5 +1,7 @@
+import 'package:dileepabandara_dev/desktop/ds_6_portfolio.dart';
 import 'package:flutter/material.dart';
 
+import 'mobile/ms_6_portfolio.dart';
 import 'theme/responsive_screen_provider.dart';
 import 'theme/app_theme.dart';
 import 'widgets/nav_bar.dart';
@@ -8,7 +10,6 @@ import 'desktop/ds_2_about_me.dart';
 import 'desktop/ds_3_education.dart';
 import 'desktop/ds_4_experience.dart';
 import 'desktop/ds_5_volunteering.dart';
-import 'desktop/ds_6_technotes.dart';
 import 'desktop/ds_7_contact.dart';
 import 'desktop/ds_8_footer.dart';
 import 'mobile/ms_1_header.dart';
@@ -16,7 +17,6 @@ import 'mobile/ms_2_about_me.dart';
 import 'mobile/ms_3_education.dart';
 import 'mobile/ms_4_experience.dart';
 import 'mobile/ms_5_volunteering.dart';
-import 'mobile/ms_6_technotes.dart';
 import 'mobile/ms_7_contact.dart';
 import 'mobile/ms_8_footer.dart';
 
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dileepa Bandara',
+      title: 'Merouani Azzouz',
       debugShowCheckedModeBanner: false,
       theme: AppThemeData.darkTheme,
       home: const HomePage(),
@@ -92,7 +92,8 @@ class _HomePageState extends State<HomePage> {
           DS3Education(),
           DS4Experience(),
           DS5Volunteering(),
-          DS6TechNotes(),
+          DS6Portfolio(),
+          //   DS6TechNotes(),
           DS7Contact(),
           DS8Footer(),
         ],
@@ -109,7 +110,8 @@ class _HomePageState extends State<HomePage> {
           MS3Education(),
           MS4Experience(),
           MS5Volunteering(),
-          MS6TechNotes(),
+          MS6Portfolio(),
+          //  MS6TechNotes(),
           MS7Contact(),
           MS8Footer(),
         ],

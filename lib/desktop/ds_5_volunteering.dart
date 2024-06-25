@@ -40,7 +40,7 @@ class DS5Volunteering extends StatelessWidget {
                   ),
                 ),
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-                Expanded(
+                /*  Expanded(
                   child: ContainerCard().type3(
                     image: 'mlsa',
                     title: DataValues.volunteeringOrg2Title,
@@ -52,9 +52,10 @@ class DS5Volunteering extends StatelessWidget {
                     isButtonEnabled: true,
                   ),
                 ),
+             */
               ],
             ),
-            const SizedBox(height: 80.0),
+            /*   const SizedBox(height: 80.0),
             Center(
               child: ContainerBanner().type1(
                 isDesktop: true,
@@ -66,6 +67,7 @@ class DS5Volunteering extends StatelessWidget {
                 url: DataValues.volunteeringURL,
               ),
             ),
+        */
           ],
         ),
       ),

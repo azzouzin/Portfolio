@@ -46,7 +46,7 @@ class NavBar {
           ),
           message: 'Go to ${DataValues.navBarVolunteering} section',
         ),
-        const SizedBox(width: 20.0),
+        /* const SizedBox(width: 20.0),
         ButtonTextLarge(
           text: DataValues.navBarTechNotes,
           onPressed: () => Scrollable.ensureVisible(
@@ -54,7 +54,7 @@ class NavBar {
             duration: const Duration(milliseconds: 1000),
           ),
           message: 'Go to ${DataValues.navBarTechNotes} section',
-        ),
+        ),*/
         const SizedBox(width: 20.0),
         ButtonRectangle(
             name: DataValues.navBarContactMe,

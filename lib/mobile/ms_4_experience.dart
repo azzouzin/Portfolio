@@ -45,6 +45,28 @@ class MS4Experience extends StatelessWidget {
               url: DataValues.linkedinURL,
               isButtonEnabled: true,
             ),
+            const SizedBox(height: 20.0),
+            ContainerCard().type3(
+              image: 'khotwa',
+              title: DataValues.experienceOrg3Title,
+              role: DataValues.experienceOrg3Role,
+              years: DataValues.experienceOrg3Years,
+              values: DataValues.experienceOrg3Vales,
+              message: DataValues.linkedinURL.toString(),
+              url: DataValues.linkedinURL,
+              isButtonEnabled: true,
+            ),
+            const SizedBox(height: 40.0),
+            ContainerCard().type3(
+              image: 'Futuriva',
+              title: DataValues.experienceOrg4Title,
+              role: DataValues.experienceOrg4Role,
+              years: DataValues.experienceOrg4Years,
+              values: DataValues.experienceOrg4Vales,
+              message: DataValues.linkedinURL.toString(),
+              url: DataValues.linkedinURL,
+              isButtonEnabled: true,
+            ),
             const SizedBox(height: 40.0),
             Center(
               child: ContainerBanner().type1(
