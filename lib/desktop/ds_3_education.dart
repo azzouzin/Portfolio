@@ -41,6 +41,8 @@ class DS3Education extends StatelessWidget {
                       DataValues.educationOrg1Course3Name,
                       DataValues.educationOrg1Course3Year,
                       DataValues.educationOrg1Course3Year2,
+                      DataValues.educationOrg1CourseYear4,
+                      DataValues.educationOrg1Course4Year2,
                     ],
                     message: DataValues.linkedinURL.toString(),
                     url: DataValues.linkedinURL,

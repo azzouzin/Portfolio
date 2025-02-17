@@ -34,7 +34,7 @@ class DataValues {
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
   static const String headerName = 'Merouani Azzouz';
-  static const String headerTitle = 'Algerian | Developer | IT engineer';
+  static const String headerTitle = 'Algerian | Developer | PhD Student';
 
   // Navigation Bar
   static const String navBarAboutMe = 'About Me';
@@ -72,7 +72,7 @@ class DataValues {
   /*static const String aboutMeWorkDomainTitle = 'Working Domain';
   static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
       '08:00 - 18:00 (GMT+5:30)';*/
-  static const String aboutMeStudentTitle = 'IT Engineer';
+  static const String aboutMeStudentTitle = 'PhD student';
   static const String aboutMeStudentDescription =
       'I studied computing technologies as a student by focusing on learning how computer systems work, from the physical (hardware) to the apps and programs (software) that users interact with, and I learn all about critical thinking, problem-solving, and analytical research, regardless of whether I apply all the computing principles to solve problems in scenarios.';
   static const String aboutMeDeveloperTitle = 'Solution Developer';
@@ -110,6 +110,9 @@ class DataValues {
   static const String educationOrg1Course3Year = 'Bachlor: 2018 - 2021';
   static const String educationOrg1Course3Year2 = 'Master: 2021 - 2023';
 
+  static const String educationOrg1CourseYear4 = 'PhD Student';
+  static const String educationOrg1Course4Year2 = 'PhD: 2025 - Now';
+
   static const String educationOrg2Title = 'NIBM - Sri Lanka';
   static const String educationOrg2Course1Name = 'BSc (Hons) Computing';
   static const String educationOrg2Course1Grade =
@@ -140,8 +143,8 @@ class DataValues {
 
   static const String project2Title = 'ADH';
   static const String project2Descreption = "Flutter,Dart,Laravel,Php,FCM";
-  static const String project3Title = 'DrAdd';
-  static const String project3Descreption = "Flutter,Dart,Fast Api,python";
+  static const String project3Title = 'AmwalFlow';
+  static const String project3Descreption = "Flutter,Dart,SpringBoot,FCM";
   static const String project4Title = 'IamPack';
   static const String project4Descreption =
       "Flutter,Dart,Firestore,FireBaseAuth,UI/UX,Geolocation";
@@ -162,7 +165,7 @@ class DataValues {
 
   static const String experienceOrg2Title = 'ADH Protacleans';
   static const String experienceOrg2Role =
-      'IT engineer & Software Developer (Flutter)';
+      'PhD student & Software Developer (Flutter)';
   static const String experienceOrg2Years = 'Aug 2023 - Now';
   static const String experienceOrg2Vales =
       'Android, Flutter, Dart, Firebase, Git, REST API,Web, JSON Parsing & UI UX Designing.';
