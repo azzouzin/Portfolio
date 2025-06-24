@@ -27,8 +27,8 @@ class FrameTitle extends StatelessWidget {
                 title,
                 style: Theme.of(context).textTheme.displaySmall,
               ),
-              Lottie.asset('assets/icons/$animation.json',
-                  height: 100.0, width: 100.0),
+              // Lottie.asset('assets/icons/$animation.json',
+              //   height: 100.0, width: 150.0),
             ],
           ),
           Padding(

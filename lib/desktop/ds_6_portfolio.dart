@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tilt/flutter_tilt.dart';
 
 import '../statics/data_values.dart';
 import '../statics/key_holders.dart';
@@ -48,9 +49,10 @@ class DS6Portfolio extends StatelessWidget {
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
                 Expanded(
                   child: ContainerCard().type5(
-                    image: 'drAdd',
+                    image: 'amwal',
                     title: DataValues.project3Title,
-                    link: 'https://github.com/azzouzin',
+                    link:
+                        'https://play.google.com/store/apps/details?id=com.amwalflow.app&hl=fr',
                     description: DataValues.project3Descreption,
                   ),
                 ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tilt/flutter_tilt.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:developer';
@@ -121,9 +122,9 @@ class ContainerCard {
                 ),
                 const SizedBox(height: 10.0),
                 TextPairs().type2(
-                  title: values[6],
-                  value1: values[7],
-                  value2: values[8],
+                  title: values[9],
+                  value1: values[10],
+                  value2: '',
                   isThreeLines: false,
                 ),
               ],
@@ -268,68 +269,72 @@ class ContainerCard {
       onHover: (isHover) {
         print(isHover);
       },
-      child: Container(
-        decoration: BoxDecoration(
-          color: AppThemeData.cardGrey,
-          borderRadius: BorderRadius.circular(10.0),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.2),
-              spreadRadius: 2,
-              blurRadius: 5,
-              offset: const Offset(0, 3), // changes position of shadow
-            ),
-          ],
-        ),
-        child: Stack(
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(10.0),
-              child: Image.asset(
-                "assets/images/$image.png",
-                fit: BoxFit.cover,
-                height: 500,
+      child: Tilt(
+        border: Border.all(color: Colors.white),
+        borderRadius: BorderRadius.circular(10.0),
+        child: Container(
+          decoration: BoxDecoration(
+            color: AppThemeData.cardGrey,
+            borderRadius: BorderRadius.circular(10.0),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.2),
+                spreadRadius: 2,
+                blurRadius: 5,
+                offset: const Offset(0, 3), // changes position of shadow
               ),
-            ),
-            SizedBox(
-              height: 500,
-              child: Column(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Expanded(child: Container()),
-                    Container(
-                      width: double.maxFinite,
-                      height: 150,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.only(
-                            bottomLeft: Radius.circular(10),
-                            bottomRight: Radius.circular(10)),
-                        color: Colors.black.withOpacity(0.5),
-                      ),
-                      child: Container(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                title,
-                                style: TextStyle(fontWeight: FontWeight.bold),
-                              ),
-                              SizedBox(height: 10),
-                              Text(
-                                description,
-                                style: TextStyle(fontWeight: FontWeight.w100),
-                              ),
-                            ],
+            ],
+          ),
+          child: Stack(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(10.0),
+                child: Image.asset(
+                  "assets/images/$image.png",
+                  fit: BoxFit.cover,
+                  height: 500,
+                ),
+              ),
+              SizedBox(
+                height: 500,
+                child: Column(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(child: Container()),
+                      Container(
+                        width: double.maxFinite,
+                        height: 150,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(10),
+                              bottomRight: Radius.circular(10)),
+                          color: Colors.black.withOpacity(0.5),
+                        ),
+                        child: Container(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  title,
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(height: 10),
+                                Text(
+                                  description,
+                                  style: TextStyle(fontWeight: FontWeight.w100),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                  ]),
-            ),
-          ],
+                    ]),
+              ),
+            ],
+          ),
         ),
       ),
     );
