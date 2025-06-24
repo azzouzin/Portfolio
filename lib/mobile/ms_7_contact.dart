@@ -84,7 +84,7 @@ class MS7Contact extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 40.0),
             child: ContainerBanner().type2(
               message:
-                  'Visit profile.dileepabandara.dev to view my all profiles >>',
+                  'Visit azzouz.setifistech.com to view my all profiles >>',
               url: DataValues.profilesURL,
             ),
           ),

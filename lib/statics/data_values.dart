@@ -24,7 +24,7 @@ class DataValues {
   static Uri repoURL =
       Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
   static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev');
-  static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
+  static Uri profilesURL = Uri.parse('https://azzouz.setifistech.com');
   static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
   static Uri volunteeringURL =
       Uri.parse('https://volunteer.dileepabandara.dev');
@@ -92,7 +92,7 @@ class DataValues {
   static const String aboutMeBanner = 'You can find my';
   static const String aboutMeBannerTitle = 'public profiles';
   static const String aboutMeBannerWeb =
-      'Visit profile.dileepabandara.dev to find all my public profiles.';
+      'Visit azzouz.setifistech.com to find all my public profiles.';
 
   // Education
   static const String educationTitle = 'Education';

@@ -111,7 +111,6 @@ class _HomePageState extends State<HomePage> {
           MS4Experience(),
           MS5Volunteering(),
           MS6Portfolio(),
-          //  MS6TechNotes(),
           MS7Contact(),
           MS8Footer(),
         ],
