@@ -65,6 +65,15 @@ class DS6Portfolio extends StatelessWidget {
                     description: DataValues.project4Descreption,
                   ),
                 ),
+                SizedBox(width: MediaQuery.of(context).size.width * 0.05),
+                Expanded(
+                  child: ContainerCard().type5(
+                    image: 'myTuniClaim',
+                    title: DataValues.project5Title,
+                    link: DataValues.project5Link,
+                    description: DataValues.project5Descreption,
+                  ),
+                ),
               ],
             ),
             const SizedBox(height: 80.0),

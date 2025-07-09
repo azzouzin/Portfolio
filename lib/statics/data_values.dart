@@ -136,7 +136,7 @@ class DataValues {
   // Portfolio
   static const String portfolioTitle = 'Portfolio';
   static const String portfolioDescription =
-      "In my 3 years of experience in Flutter, I created various applications, some for my freelancing clients and some for the companies I worked for in the past. Now, here is a brief overview of some of the best apps I created or edited."; // Experience
+      "In my 4 years of experience in Flutter, I created various applications, some for my freelancing clients and some for the companies I worked for in the past. Now, here is a brief overview of some of the best apps I created or edited."; // Experience
   // Projects
   static const String project1Title = 'Animo360';
   static const String project1Descreption = "Flutter,Dart,NodeJS,FCM";
@@ -150,6 +150,12 @@ class DataValues {
       "Flutter,Dart,Firestore,FireBaseAuth,UI/UX,Geolocation";
   static const String project4Link =
       "https://mega.nz/file/DLxXSY4T#o8Wq2n5ZVaRK2u8f135w1iorNgdBQMsX6pyr15SZXLI";
+
+  static const String project5Title = 'My Tuni Claim';
+  static const String project5Descreption =
+      "Flutter,Dart,Springboot,FireBaseMesseging,Geolocation,Google Maps";
+  static const String project5Link =
+      "https://play.google.com/store/apps/details?id=com.mytuniclaim.digih&pli=1";
 
   // Experience
 
@@ -165,7 +171,7 @@ class DataValues {
 
   static const String experienceOrg2Title = 'ADH Protacleans';
   static const String experienceOrg2Role =
-      'PhD student & Software Developer (Flutter)';
+      'Cyber Security PhD student & Software Developer (Flutter)';
   static const String experienceOrg2Years = 'Aug 2023 - Now';
   static const String experienceOrg2Vales =
       'Android, Flutter, Dart, Firebase, Git, REST API,Web, JSON Parsing & UI UX Designing.';
@@ -231,8 +237,7 @@ class DataValues {
   static const String contactEmail = 'azzouzmerw@gmail.com';
 
   // Footer
-  static const String copyright =
-      "Thanks to Dileepa Bandara. Really Appreciate it.";
+  static const String copyright = "";
 
   static const String builtWith = "Built with Flutter,GitHub Pages and Love.";
 }
